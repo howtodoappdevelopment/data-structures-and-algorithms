@@ -1,8 +1,8 @@
 ## Data structures and algorithms
 
 ### Data structures
-- [ ] Linked list
-- [ ] Stack
+- [x] Linked list
+- [x] Stack
 - [ ] Heap
     - [ ] Regular
     - [ ] Max heap
