@@ -4,9 +4,9 @@
 - [x] Linked list
 - [x] StackSpec
 - [x] Max Heap
-- [ ] Queue
-    - [ ] Regular
-    - [ ] Priority
+- [x] Queue
+    - [x] Regular
+    - [x] Priority
 - [ ] Graph
 - [ ] Trie
 - [ ] Array list
