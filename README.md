@@ -2,11 +2,8 @@
 
 ### Data structures
 - [x] Linked list
-- [x] Stack
-- [ ] Heap
-    - [ ] Regular
-    - [ ] Max heap
-    - [ ] Min heap
+- [x] StackSpec
+- [x] Max Heap
 - [ ] Queue
     - [ ] Regular
     - [ ] Priority
