@@ -7,16 +7,13 @@
 - [x] Queue
     - [x] Regular
     - [x] Priority
-- [ ] Graph
-- [ ] Trie
-- [ ] Array list
-- [ ] Vector
-- [ ] Hash map
+- [x] Graph
 - [ ] Hash table
 - [ ] Tree
     - [ ] Regular
     - [ ] Red-black
     - [ ] AVL
+- [ ] Trie
 
 ### Algorithms and concepts
 - [ ] Bit manipulation
