@@ -8,9 +8,8 @@
     - [x] Regular
     - [x] Priority
 - [x] Graph
-- [ ] Hash table
 - [ ] Tree
-    - [ ] Regular
+    - [x] Regular
     - [ ] Red-black
     - [ ] AVL
 - [ ] Trie

@@ -1,0 +1,67 @@
+const {Tree} = require("../data structures/tree");
+const {expect} = require("chai");
+
+describe("Tree", function() {
+    it("should insert and has value", function() {
+        const tree = new Tree()
+        tree.insert(10)
+        tree.insert(1)
+        tree.insert(12)
+        expect(tree.head.value).to.equal(10)
+        expect(tree.head.left.value).to.equal(1)
+        expect(tree.head.right.value).to.equal(12)
+    })
+    it("should delete value", function() {
+        const tree = new Tree()
+        tree.insert(10)
+        tree.insert(1)
+        tree.insert(12)
+        tree.delete(12)
+        tree.delete(1)
+        expect(tree.head.right).to.equal(undefined)
+        expect(tree.head.left).to.equal(undefined)
+    })
+    it("should find parent of value", function() {
+        const tree = new Tree()
+        expect(tree.parentOf(1)).to.equal(undefined)
+        tree.insert(10)
+        tree.insert(1)
+        tree.insert(12)
+        expect(tree.parentOf(1).value).to.equal(10)
+        expect(tree.parentOf(12).value).to.equal(10)
+    })
+    it("should find node of value", function() {
+        const tree = new Tree()
+        expect(tree.find(1)).to.equal(undefined)
+        tree.insert(10)
+        tree.insert(5)
+        tree.insert(12)
+        expect(tree.find(10).value).to.equal(10)
+        expect(tree.find(12).value).to.equal(12)
+        expect(tree.find(5).value).to.equal(5)
+    })
+    it('should find min value', function () {
+        const tree = new Tree()
+        expect(tree.findMin()).to.equal(undefined)
+        tree.insert(10)
+        tree.insert(5)
+        tree.insert(4)
+        tree.insert(3)
+        tree.insert(2)
+        tree.insert(1)
+        tree.insert(12)
+        expect(tree.findMin()).to.equal(1)
+    });
+    it('should find max value', function () {
+        const tree = new Tree()
+        expect(tree.findMax()).to.equal(undefined)
+        tree.insert(10)
+        tree.insert(13)
+        tree.insert(14)
+        tree.insert(14)
+        tree.insert(16)
+        tree.insert(1)
+        tree.insert(12)
+        expect(tree.findMax()).to.equal(16)
+    });
+})
