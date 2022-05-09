@@ -8,6 +8,22 @@ const Node = function(
     this.left = left
     this.right = right
     this.value = value
+
+    this.getLeftHeight = () => {
+        if (!this.left) {
+            return 0;
+        }
+
+        return this.left.getLeftHeight() + 1;
+    }
+    this.getRightHeight = () => {
+        if (!this.right) {
+            return 0;
+        }
+
+        return this.right.getRightHeight() + 1;
+    }
+    this.getBalance = () => this.getLeftHeight() - this.getRightHeight()
 }
 
 const Tree = function() {
@@ -32,6 +48,7 @@ const Tree = function() {
     this.find = (value) => this._find(this.head, value)
     this.findMin = () => {
         if (!this.head) {
+
             return;
         }
 

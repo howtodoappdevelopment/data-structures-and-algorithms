@@ -8,11 +8,7 @@
     - [x] Regular
     - [x] Priority
 - [x] Graph
-- [ ] Tree
-    - [x] Regular
-    - [ ] Red-black
-    - [ ] AVL
-- [ ] Trie
+- [x] Tree
 
 ### Algorithms and concepts
 - [ ] Bit manipulation
@@ -31,3 +27,9 @@
 - [ ] Shortest common subsequence
 - [ ] Rabin Karp algorithm
 - [ ] Longest common substring
+- [ ] Is power of two
+- [ ] Math - matrices
+- [ ] Sets - cartesian product
+- [ ] Strings - Palindrome
+- [ ] Strings - Z algorithm
+- [ ] Math - complex numbers
