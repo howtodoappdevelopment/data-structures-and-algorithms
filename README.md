@@ -12,24 +12,21 @@
 
 ### Algorithms and concepts
 - [x] Bit manipulation
-- [ ] Memory (stack vs heap)
-- [ ] Breadth-first search
-- [ ] Depth-first search
-- [ ] Binary search
-- [ ] Merge sort
-- [ ] Quick sort
-- [ ] Bucket sort
+- [x] Breadth-first search
+- [x] Depth-first search
+- [x] Binary search
+- [x] Merge sort
+- [x] Quick sort
 - [ ] Dijkstra algorithm
-- [ ] Fibonacci number
-- [ ] Primality test
+- [x] Fibonacci number
+- [x] Primality test
 - [ ] Longest common subsequence
 - [ ] Longest increasing subsequence
 - [ ] Shortest common subsequence
 - [ ] Rabin Karp algorithm
 - [ ] Longest common substring
-- [ ] Is power of two
+- [x] Is power of two (bit operation (n & (n - 1)))
 - [ ] Math - matrices
-- [ ] Sets - cartesian product
 - [ ] Strings - Palindrome
 - [ ] Strings - Z algorithm
 - [ ] Math - complex numbers
