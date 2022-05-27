@@ -11,7 +11,7 @@
 - [x] Tree
 
 ### Algorithms and concepts
-- [ ] Bit manipulation
+- [x] Bit manipulation
 - [ ] Memory (stack vs heap)
 - [ ] Breadth-first search
 - [ ] Depth-first search
