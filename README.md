@@ -20,8 +20,8 @@
 - [ ] Dijkstra algorithm
 - [x] Fibonacci number
 - [x] Primality test
-- [ ] Longest common subsequence
-- [ ] Longest increasing subsequence
+- [x] Longest common subsequence
+- [x] Longest increasing subsequence
 - [ ] Shortest common subsequence
 - [ ] Rabin Karp algorithm
 - [ ] Longest common substring

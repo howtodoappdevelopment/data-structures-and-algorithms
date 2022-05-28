@@ -1,6 +1,6 @@
 const {Graph, Vertex} = require("../data structures/graph");
 const {expect} = require("chai");
-describe.only("Graph", function() {
+describe("Graph", function() {
     it("should add vertex and find it", function() {
         const graph = new Graph();
         [1, 2, 3, 4].forEach(n => graph.addVertex(n))
